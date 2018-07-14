@@ -78,7 +78,7 @@ header {
   margin-right: 0;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 860px) {
 
   .header {
     height: 64px;
@@ -120,6 +120,7 @@ header {
   background-color: #005874;
   color: #e6e6d4;
   align-items: center;
+  max-width: 100%;
 }
 
 .container.banner img {
@@ -128,9 +129,8 @@ header {
 }
 
 .banner-content-box {
-  position: relative;
-  left: 3.5rem;
-  width: 675px;
+  padding-left: 1rem;
+  border: 1px solid red;
 }
 
 .banner-content-box h1 {
@@ -150,7 +150,7 @@ header {
   background-color: #c93d1b;
   color: white;
   font-size: 3rem;
-  width: 422px;
+  max-width: 60%;
   margin-top: 5rem;
   text-align: center;
   padding: 1rem 0;
@@ -163,8 +163,38 @@ header {
   opacity: 0.5;
 }
 
+@media only screen and (max-width: 1480px) {
 
-@media only screen and (max-width: 560px) {
+  .banner-content-box {
+    max-width: 100%;
+  }
+
+  .banner-content-box h1 {
+    font-size: 4rem;
+  }
+
+  .banner-content-box h2 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .banner-content-box {
+    margin: 0 auto;
+  }
+
+  .banner-content-box h1 {
+    font-size: 3rem;
+  }
+
+  .banner-content-box h2 {
+    font-size: 2rem;
+  }
+}
+
+
+@media only screen and (max-width: 860px) {
  .container.banner {
    flex-direction: column;
  }
@@ -237,6 +267,13 @@ header {
   padding-top: 10rem;
 }
 
+@media only screen and (max-width: 1480px) {
+
+  .left-column h1 {
+    font-size: 5rem;
+  }
+}
+
 @media only screen and (max-width: 560px) {
   .left-column {
     display: none;
@@ -267,7 +304,7 @@ header {
 
 .info-image-box img {
   width: 35%;
-  height: 290px;
+  height: auto;
   margin: 3rem 3rem;
 }
 
@@ -305,6 +342,40 @@ header {
 .info-image-box h3:hover {
   opacity: 0.5;
 }
+
+@media only screen and (max-width: 1480px) {
+  .info-image-box img {
+    margin: 3rem 3rem;
+  }
+
+  .info-image-box h1 {
+    font-size: 3.5rem;
+  }
+
+  .info-image-box h2 {
+    font-size: 2rem;
+  }
+
+  .info-image-box h3 {
+    font-size: 2rem;
+   }
+}
+
+@media only screen and (max-width: 860px) {
+
+  .info-image-box h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+
+  .info-image-box h2 {
+    display: none;
+  }
+}
+
 
 @media only screen and (max-width: 560px) {
 
@@ -373,7 +444,7 @@ header {
 
 .course-box {
   background-color: #fbd685;
-  width: 530px;
+  width: 30%;
   color: #312b30;
   margin-right: 4rem;
   transition-property: background-color;
@@ -398,6 +469,7 @@ header {
 
 .course-box img {
   height: auto;
+  width: 100%;
 }
 
 .course-info {
@@ -418,7 +490,8 @@ header {
   color: #7d0000;
 }
 
-@media only screen and (max-width: 560px) {
+
+@media only screen and (max-width: 860px) {
 
  .courses-headline {
    background-color: white;
@@ -517,6 +590,7 @@ header {
   height: auto;
   border-style: none;
 }
+
 
 @media only screen and (max-width: 560px) {
 
