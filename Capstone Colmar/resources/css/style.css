@@ -50,7 +50,7 @@ header {
   font-weight: 300;
 }
 
-.navigation {
+nav {
   margin-right: 3rem;
 }
 
@@ -58,7 +58,7 @@ header {
   display: none;
 }
 
-.navigation ul {
+nav ul {
   display: flex;
   font-size: 3rem;
   color: #1c819e;
@@ -66,15 +66,15 @@ header {
   transition-duration: 2s;
 }
 
-.navigation ul li:hover {
+nav ul li:hover {
   opacity: 0.5;
 }
 
-.navigation ul li {
+nav ul li {
   margin-right: 2rem;
 }
 
-.navigation #four {
+nav #four {
   margin-right: 0;
 }
 
@@ -84,7 +84,7 @@ header {
     height: 64px;
   }
 
-  .navigation {
+  nav {
     display: none;
   }
 
@@ -256,7 +256,7 @@ header {
   padding-top: 4rem;
 }
 
-.left-column p {
+.left-column q, .left-column p {
   padding-top: 3rem;
   font-size: 3.3rem;
   font-weight: 300;
